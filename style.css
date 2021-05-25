@@ -1,0 +1,37 @@
+h1{
+  margin: auto;
+  color: green;
+  background-color: greenyellow;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  }
+  caption{
+    font-size: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    
+  }
+ table,th{
+   padding: 5px;
+   text-align: center;
+   border: 2px solid black;
+   background-color: mediumvioletred;
+
+ } 
+ table,tr{
+   text-align: center;
+   margin: auto;
+   border: 2px solid black;
+   padding: 5px;
+   background-color: blanchedalmond;
+ }
+ tbody,tr:hover{
+   background-color: rgb(155, 22, 196);
+ }
+ tbody, tr:nth-child(even){
+   background-color: rgb(175, 208, 228);
+ }
+ tfoot td {
+   text-align: right;
+ }
